@@ -68,8 +68,8 @@ jobs:
         environment:
           #- OpenEPaperLink_Mini_AP
           #- OpenEPaperLink_AP_and_Flasher
-          - ESP32_S3_16_8_YELLOW_AP
-          - OpenEPaperLink_Mini_AP_v4
+          - ESP32_S3_16_8_SPAGHETTI_AP
+          #- OpenEPaperLink_Mini_AP_v4
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Code
