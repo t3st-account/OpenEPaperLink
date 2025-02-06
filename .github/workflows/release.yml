@@ -79,10 +79,10 @@ jobs:
           cp /home/runner/work/OpenEPaperLink/OpenEPaperLink/ARM_Tag_FW/OpenEPaperLink_esp32_H2_AP/build/partition_table/partition-table.bin espbinaries/partition-table_H2.bin
           cp /home/runner/work/OpenEPaperLink/OpenEPaperLink//binaries/ESP32-H2/firmware_H2.json espbinaries
 
-#      - name: Zip web files
-#        run: | 
-#            cd /home/runner/work/OpenEPaperLink/OpenEPaperLink/ESP32_AP-Flasher
-#            python gzip_wwwfiles.py
+      - name: Zip web files
+        run: | 
+            cd /home/runner/work/OpenEPaperLink/OpenEPaperLink/ESP32_AP-Flasher
+            python gzip_wwwfiles.py
           
       # - name: Build firmware for OpenEPaperLink_Mini_AP
       #   if: ${{ env.INCLUDE_MINI_AP == 'true' }}
